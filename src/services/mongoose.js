@@ -21,7 +21,5 @@ exports.connect = async () => {
     useUnifiedTopology: true
   })
 
-  mongoose.set('useCreateIndex', true)
-
   return mongoose.connection
 }
